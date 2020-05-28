@@ -1,0 +1,8 @@
+.row {
+/* background-color: gray; */
+/* width: 200px; */
+}
+td, th {
+width: 400px;
+/* border: black solid 1px; */
+}

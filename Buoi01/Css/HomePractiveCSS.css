@@ -1,0 +1,13 @@
+body {
+    background-color: darkgray;
+}
+.selector {
+    background-color: darkseagreen;
+}
+ol {
+    text-align: justify;
+}
+#dfn {
+    background-color: chocolate;
+    font-size: inherit;
+}

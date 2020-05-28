@@ -1,0 +1,177 @@
+.wrap {
+    left: 0;
+    right: 0;
+    width: 1200px;
+    margin: auto;
+}
+
+p, h1 {
+    margin: 0;
+    padding: 0;
+}
+
+
+h1 {
+    font-size: 24px;
+    font-weight: lighter;
+}
+
+h2 {
+    font-weight: lighter;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.left_content {
+    height: 885px;
+    width: 390px;
+    padding-left: 10px;
+    background-color: #0BAFDC;
+    float: left;
+    color: white;
+    padding-right: 10px;
+}
+
+.right_content {
+    background-color: whitesmoke;
+}
+
+.picture_infor {
+    margin: auto;
+}
+
+.picture {
+    width: 175px;
+    height: 175px;
+    margin: auto;
+    border: solid 5px white;
+    border-radius: 50%;
+}
+
+.name {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    color: white;
+    font-size: 36px;
+}
+
+.title_job {
+    text-align: center;
+    color: white;
+    text-decoration: underline;
+    font-size: 24px;
+}
+/* ===========xong phần ảnh============== */
+
+.contact_infor_title, .target_title, .skill_title, .hoby_title {
+    margin-bottom: 10px;
+    margin-top: 40px;
+    padding: 5px;
+    border: solid 2px white;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+}
+
+/* =====XONG THÔNG TIN LIÊN HỆ========= */
+
+
+/* ========xong mục tiêu nghề nghiệp======== */
+
+.skill_name {
+    float: left;
+    /* border: solid 1px pink; */
+    width: 100px;
+}
+
+.skill_index {
+    width: 280px;
+    float: left;
+    /* border: solid 1px red; */
+}
+/* =============sow thich=========== */
+.hoby_content {
+    margin: auto;
+}
+.hoby_content div {
+    float: left;
+    margin-left: 60px;
+}
+
+/* ===========sang right content=========== */
+/* định dạng chung */
+.right_content {
+    float: right;
+    padding-left: 10px;
+    /* border: solid 2px palegreen; */
+    background-color: gainsboro;
+    height: 885px;
+    width: 780px;
+}
+
+/* ============học vấn================= */
+.study_title, .experience_title {
+    margin: auto;
+    width: 700px;
+    background-color: #0BAFDC;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-size: 24px;
+    border-radius: 10px;
+}
+
+.study_content, .experience_content {
+    margin: 10px;
+}
+
+/* ===========ve hinh============== */
+.index1 {
+    position: absolute;
+    width: 280px;
+    height: 10px;
+    background-color: white;
+    border: solid 2px pink;
+    top: 681px;
+    left: 273px;
+}
+.index2 {
+    position: absolute;
+    width: 280px;
+    height: 10px;
+    background-color: white;
+    border: solid 2px pink;
+    top: 700px;
+    left: 273px;
+}
+.index3 {
+    position: absolute;
+    width: 280px;
+    height: 10px;
+    background-color: white;
+    border: solid 2px pink;
+    top: 718px;
+    left: 273px;
+}
+.index4 {
+    position: absolute;
+    width: 280px;
+    height: 10px;
+    background-color: white;
+    border: solid 2px pink;
+    top: 735px;
+    left: 273px;
+}
+.index2_2 {
+    position: absolute;
+    width: 56px;
+    height: 10px;
+    background-color:#0BAFDC;
+    /* border: solid 2px pink; */
+    top: 0px;
+    left: 224px;
+}

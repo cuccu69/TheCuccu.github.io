@@ -1,0 +1,709 @@
+body {
+    position: relative;
+    background-color: whitesmoke;
+    color: rgba(255, 255, 255, 0.898);
+    /* background-color: hsla(0, 0%, 100%, .9); */
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica Neue, Helvetica, Arial, 文泉驛正黑, WenQuanYi Zen Hei, Hiragino Sans GB, 儷黑 Pro, LiHei Pro, Heiti TC, 微軟正黑體, Microsoft JhengHei UI, Microsoft JhengHei, sans-serif;
+}
+
+.floating_icon {
+    width: 82px;
+    height: 82px;
+    position: absolute;
+    top: 300px;
+    right: 30px;
+    z-index: 999;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.sticky_header {
+    background: linear-gradient(-180deg, #f53d2d, #f63);
+    /* border: solid 1px black; */
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    right: 0;
+    /* position: relative; */
+    /* top: 0; */
+    /* z-index: 1000; */
+    /* z-index: 1; */
+    /* position: absolute;   */
+}
+
+.block1, .block1 span {
+    /* border: solid 1px green; */
+    max-width: 1200px;
+    margin: auto;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 300;
+    padding: 0 .2375rem;
+}
+
+.block1 {
+    padding-bottom: 10px;
+}
+
+.header_line2_block4 span {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.header_line1_block1 {
+    /* border: solid; */
+    float: left;
+    /* border: solid 1px white; */
+}
+
+.header_line1_block2 {
+    /* border: solid; */
+    float: right;
+    /* border: solid 1px blue; */
+}
+
+.block2 {
+    max-width: 1200px;
+    margin: auto;
+    margin-bottom: 0em;
+}
+
+
+.header_line2_block1 {
+    float: left;
+    /* border: solid 1px; */
+    width: fit-content;
+}
+
+.header_line2_block2 {
+    width: 900px;
+    height: 34px;
+    /* border: solid 1px; */
+    width: fit-content;
+    text-align: center;
+}
+
+.header_line2_block3 {
+    float: right;
+    /* border: solid 1px; */
+    width: 36px;
+    height: 36px;
+    position: relative;
+    top: -50px;
+    right: 60px;
+}
+
+.header_line2_block4 {
+    /* border: solid 1px; */
+    color: hsla(0, 0%, 100%, .9);
+    font-size: 12px;
+    width: 736px;
+    margin-left: 215px;
+    position: relative;
+    top: -20px;
+}
+
+/* ================================================================= */
+
+.body1 {
+    max-width: 1200px;
+    margin: auto;
+    background-color: white;
+    padding-left: 11%;
+    padding-right: 11%;
+    padding-top: 12px;
+    padding-bottom: 10px;
+}
+
+.body_upper {
+    width: 1200px;
+    margin-top: 115px;
+    /* border: solid 1px; */
+}
+
+.body_upper_part1 {
+    width: 794px;
+    height: 235px;
+    /* border: solid 1px green; */
+    /* padding-top: 140px; */
+    float: left;
+    margin-top: 3px;
+    /* border: solid 1px; */
+}
+
+.body_upper_part2, .body_upper_part3 {
+    width: 398px;
+    height: 115px;
+    /* border: solid 1px; */
+    float: right;
+    margin: 3px;
+}
+
+/* =========================================== */
+
+.body_upper_part4 {
+    margin: 10px;
+    /* border: solid 1px; */
+    width: 1200px;
+    height: 60px;
+    padding-top: 15px;
+    margin: auto
+}
+
+.box {
+    width: 100px;
+    height: 66.6px;
+    float: left;
+    margin: 10px;
+}
+
+.box:hover {
+    margin-top: 2px;
+    display: block;
+    text-transform: none;
+}
+
+.pic {
+    width: 45px;
+    height: 45px;
+    margin: auto;
+}
+
+.text {
+    width: 100px;
+    height: 13.6px;
+    font-size: .8125rem;
+    text-align: center;
+    color: #222;
+    margin-top: 3px;
+}
+
+/* ============= */
+
+.body2 {
+    width: 1200px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/* ============Danh Muc====================== */
+
+.body3 {
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 1rem;
+    color: rgba(0, 0, 0, .54);
+    font-weight: 500;
+}
+
+.danhmuc {
+    width: 1200px;
+    height: 60px;
+    background-color: white;
+}
+
+.danhmuc_header {
+    width: 1140px;
+    padding: 20px;
+}
+
+.danhmuc_content {
+    width: 1200px;
+}
+
+.danhmuc_content_block {
+    width: 119px;
+    height: 149.94px;
+    float: left;
+    border-right: 1px solid rgba(0, 0, 0, .05);
+    border-top: 1px solid rgba(0, 0, 0, .05);
+    background-color: white;
+}
+
+.danhmuc_content_block:hover {
+    border: solid 0.5px whitesmoke;
+}
+
+.content_img {
+    width: 83.3px;
+    height: 76.14px;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.content_text {
+    /* margin: auto; */
+    color: rgba(0, 0, 0, .8);
+    width: 107px;
+    font-size: 14px;
+    text-align: center;
+    margin: auto;
+}
+
+/* ======================Flash sale==================== */
+
+.block_flashsale {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.flash_sale_header {
+    height: 100px;
+}
+
+.text_timer_flashsale {
+    border-bottom: 1px solid rgba(0, 0, 0, .05);
+}
+
+.flash_sale {
+    width: 1200px;
+    height: 320.6px;
+    margin: auto;
+    /* margin-left: 13.27%; */
+    /* margin-right: 10.5%; */
+    /* border: solid 1px red; */
+    margin-top: 10px;
+    padding-top: 20px;
+    /* padding-bottom: 20px; */
+    display: inline-block;
+    /* margin-top: 20px; */
+    background-color: white;
+}
+
+.text_timer_flashsale {
+    padding-top: 15px;
+    padding-left: 15px;
+    margin-bottom: 10px;
+}
+
+.text_flashsale {
+    width: 130px;
+    height: 30px;
+}
+
+.flash_sale_content_block {
+    float: left;
+    height: 239.6px;
+    width: 200px;
+    margin: auto;
+}
+
+.flash_sale_pic {
+    margin: auto;
+    position: relative;
+}
+
+.main_product_sale {
+    margin: auto;
+}
+
+.main_product_sale {
+    height: 173px;
+    width: 173px;
+}
+
+.flash_sale_price {
+    /* border: solid 1px red; */
+    width: 200px;
+    height: 56.6px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.gia {
+    color: #ee4d2d;
+    font-weight: 400;
+    font-family: Helvetica Neue, Helvetica, Arial, 文泉驛正黑, WenQuanYi Zen Hei, Hiragino Sans GB, 儷黑 Pro, LiHei Pro, Heiti TC, 微軟正黑體, Microsoft JhengHei UI, Microsoft JhengHei, sans-serif;
+    line-height: 1.2;
+    font-size: 21.7px;
+}
+
+.d {
+    color: #ee4d2d;
+}
+
+.progress1 {
+    color: white;
+    background-color: orangered;
+    width: 81%;
+    height: 18.13px;
+    margin: auto;
+}
+
+.progress2 {
+    color: white;
+    background-color: #ffbda6;
+    left: 90px;
+    position: relative;
+    height: 18.13px;
+    width: 91px;
+    bottom: 18px
+}
+
+.progress3 {
+    color: white;
+    position: relative;
+    top: -37px
+}
+
+.time_flashsale {
+    position: absolute;
+    /* width: 173px; */
+    /* height: 173px; */
+    margin: auto;
+    position: absolute;
+    bottom: -5px;
+    left: 13px;
+}
+
+/* ===========banner thời gian flash sale=============== */
+
+.banner_sale {
+    max-width: 1200px;
+    margin: auto;
+    border: solid 1px pink;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.banner_sale_block {
+    margin: auto;
+}
+
+.banner_sale_block_part {
+    float: left;
+    width: 400px;
+    height: 110px;
+}
+
+/* ===========Shope Mall============== */
+
+.shopee_mall {
+    max-width: 1200px;
+    color: black;
+    margin: auto;
+}
+
+.shopee_mall_block {
+    margin: auto;
+}
+
+.shopee_mall_block_part1 {
+    float: left;
+    color: #d0011b;
+    font-weight: 500;
+    font-size: 1.0625rem;
+    line-height: 1.0625rem;
+    font-family: Helvetica Neue, Helvetica, Arial, 文泉驛正黑, WenQuanYi Zen Hei, Hiragino Sans GB, 儷黑 Pro, LiHei Pro, Heiti TC, 微軟正黑體, Microsoft JhengHei UI, Microsoft JhengHei, sans-serif;
+}
+
+.shopee_mall_block_part2_block {
+    float: left;
+    margin-right: 10px;
+    margin-left: 20px;
+    color: #333;
+    font-size: .875rem;
+}
+
+.shopee_mall_block_part3 {
+    float: right;
+    line-height: 1.2;
+    font-size: .875rem;
+    /* color: #f53d2d; */
+}
+
+.linkmall {
+    color: #d0011b;
+    text-decoration: none;
+}
+
+/* ===============Nhãn hàng================== */
+
+.product {
+    max-width: 1200px;
+    margin: auto;
+    background-color: white;
+    margin-top: 20px;
+}
+
+.product_part1 {
+    float: left;
+    width: 380px;
+    height: 452px;
+    padding: 10px 0px 10px 10px;
+}
+
+.product_part2_block_sp {
+    float: left;
+    width: 180px;
+    height: 216px;
+    padding: 10px;
+    position: relative;
+}
+
+.text_sp {
+    width: 172px;
+    height: 27px;
+    position: absolute;
+    left: 14px;
+    bottom: 18px;
+    line-height: 27px;
+    text-align: center;
+    font-size: 18px;
+    color: #d0011b;
+    /* word-wrap: break-word; */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+/* =============xu hướng tìm kiếm============ */
+
+.xu_huong_tim_kiem {
+    padding-top: 20px;
+    max-width: 1200px;
+    height: 181px;
+    margin: auto;
+}
+
+.xu_huong_tim_kiem_block_header {
+    height: 61px;
+    border-bottom: solid 1px whitesmoke;
+    background-color: white;
+}
+
+.xuhuong_text {
+    margin: 20px 20px 20px 0px;
+    width: 1019.64px;
+    height: 19.2px;
+    font-size: 1rem;
+    color: rgba(0, 0, 0, .54);
+    font-weight: 500;
+    float: left;
+}
+
+.xuhuong_link {
+    margin: 20px 0px 0px 0px;
+    font-size: .875rem;
+    font-weight: 300;
+    float: right;
+    color: rgb(244, 128, 93);
+}
+
+.xu_huong_tim_kiem_block_content {
+    height: 100px;
+}
+
+.content_block {
+    width: 19.91%;
+    height: 100px;
+    overflow: hidden;
+    border-right: 1.09999px solid rgba(0, 0, 0, .05);
+    background-color: white;
+    float: left;
+}
+
+.content_block_text {
+    float: left;
+    width: 99px;
+    height: 60px;
+    padding: 20px 10px 20px 20px;
+}
+
+.content_block_text_up {
+    color: #222;
+    font-weight: 500;
+    font-size: 14px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.content_block_text_down {
+    margin-top: .3125rem;
+    color: #757575;
+    font-size: .8125rem;
+}
+
+.content_block_img {
+    float: right;
+    width: 100px;
+    height: 100px;
+}
+
+/* =============Gọi ý hôm nay=============== */
+.main_product_header_box {
+    margin: auto;
+    width: 1200px;
+    background-color: white;
+    color: rgb(238, 77, 45);
+    font-size: 1rem;
+    font-weight: 500;
+    border: solid 1px black;
+}
+
+.main_product_content {
+    width: 1200px;
+    margin: auto;
+    margin-top: 5px;
+}
+
+.content_box_product {
+    width: 188px;
+    height: 273px;
+    /* border: solid 1px pink; */
+    position: relative;
+    float: left;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-bottom: 10px;
+}
+
+.picture_product {
+    width: 188px;
+    height: 188px;
+    opacity: 1;
+    transition: 0.3s ease-in;
+}
+
+.information_hover {
+    font-family: Helvetica Neue,Helvetica,Arial,文泉驛正黑,WenQuanYi Zen Hei,Hiragino Sans GB,儷黑 Pro,LiHei Pro,Heiti TC,微軟正黑體,Microsoft JhengHei UI,Microsoft JhengHei,sans-serif;
+    width: 188px;
+    height: 188px;
+    padding-left: 5px;
+    padding-right: 5px;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background-color: white;
+    color: black;
+    font-size: 12px;
+    display: none;
+    margin: auto;
+    transition: 2s ease-in-out;
+    /* border: #ee4d2d solid 1px; */
+}
+
+.text_product {
+    width: 168px;
+    height: 65px;
+    padding: 10px;
+    padding: .625rem;
+    overflow: hidden;
+}
+
+.text_product_name {
+    width: 168px;
+    height: 36px;
+    font-family: Helvetica Neue,Helvetica,Arial,文泉驛正黑,WenQuanYi Zen Hei,Hiragino Sans GB,儷黑 Pro,LiHei Pro,Heiti TC,微軟正黑體,Microsoft JhengHei UI,Microsoft JhengHei,sans-serif;
+    color: rgba(0,0,0,.8);
+    line-height: 18px;
+    font-size: 14px;
+    margin-bottom: 7px;
+    overflow: hidden;
+    word-wrap: break-word;
+    text-overflow: ellipsis;
+}
+
+.text_product_price {
+    font-size: 1rem;
+    color: #ee4d2d;
+    float: left;
+    width: 107.613px;
+    height: 25.6px;
+}
+
+.text_product_sold {
+    color: rgba(0,0,0,.54);
+    font-size: .75rem;
+}
+
+.cover_same_product {
+    position: absolute;
+    display: none;
+    width: 198px;
+    left: 0;
+    height: 25px;
+    margin: auto;
+    background-color: #ee4d2d;
+}
+
+.same_product {
+    display: inline-block;
+    width: 188px;
+    text-align: center;
+    padding-top: 3px;   
+}
+
+.content_box_product:hover .cover_same_product{
+    display: block;
+    z-index: 2;
+    cursor: pointer;
+}
+
+.content_box_product:hover {
+    /* border: #ee4d2d solid 0.3px; */
+    /* box-shadow: blanchedalmond; */
+    cursor: pointer;
+}
+
+/* .content_box_product:hover .picture_product {
+    opacity: 0.5;
+} */
+
+.content_box_product:hover .information_hover {
+    display: block;
+    opacity: 0.8;
+    /* border: #ee4d2d solid 0.5px; */
+    /* border-bottom: 0; */
+}
+
+.content_box_product:hover {
+    border: solid 1px #ee4d2d;
+}
+
+
+/* ===============back to top============ */
+
+/* .back_to_top {
+    position: absolute;
+    background-color: #ee4d2d;
+    width: 50px;
+    height: 50px;
+    right: 10px;
+    bottom: 10px;
+} */
+
+/* ================back 2============= */
+#myBtn {
+    width: 50px;
+    height: 50px;
+    display: none;
+    position: fixed;
+    bottom: 10px;
+    right: 20px;
+    z-index: 99;
+    font-size: 12px;
+    border: none;
+    outline: none;
+    background-color: #f53d2d;
+    color: white;
+    cursor: pointer;
+    /* padding: 15px; */
+    border-radius: 60%;
+}
+ 
+#myBtn:hover {
+  background-color: #555;
+}

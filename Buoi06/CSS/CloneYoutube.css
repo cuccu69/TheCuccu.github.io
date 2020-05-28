@@ -1,0 +1,21 @@
+body {
+    background: black;
+    color: white;
+}
+
+.wrap_all {
+    position: relative;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+/* ==============dinh dang noi dung============= */
+.header {
+    position: absolute;
+    margin: 0;
+    height: 56px;
+    background-color: rgb(32, 32, 32);
+}
