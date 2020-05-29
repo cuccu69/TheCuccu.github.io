@@ -1,10 +1,17 @@
 body {
-    background: black;
-    color: white;
+    /* background: black; */
+    /* color: white; */
+    width: 100%;
 }
 
 .wrap_all {
     position: relative;
+    /* position: fixed; */
+    width: 100%;
+    /* left: 0; */
+    /* right: 0; */
+    border: solid 1px green;
+    margin-top: 56px;
 }
 
 img {
@@ -15,7 +22,98 @@ img {
 /* ==============dinh dang noi dung============= */
 .header {
     position: absolute;
-    margin: 0;
+    /* margin: 0; */
+    width: 100%;
     height: 56px;
+    right: 0;
+    top: -57px;
     background-color: rgb(32, 32, 32);
+    z-index: 100;
 }
+
+.header_block {
+    height: 56px;
+    padding: 0px 16px 0px 16px;
+    /* border: solid 1px red; */
+}
+
+.header_menu_icon {
+    /* display: inline-block; */
+    float: left;
+    width: 32px;
+    height: 56px;
+    margin-top: 14px; */
+    margin-right: 16px;
+}
+
+.menu_icon {
+    width: 24px;
+    height: 24px;
+}
+
+.header_youtube_logo {
+    float: left;/*Tại sao phải thêm float vào đây thì mới float lên nhể*/
+    width: 133spx;
+}
+
+.hearder_search_box {
+    float: left;
+    width: 641px;
+    height: 32px;
+    /* margin: auto; */
+    margin-top: 10px ;
+    position: relative;
+    margin-left: 166px;
+}
+
+.search_box {
+    float: left;
+    height: 32px;
+    width: 575px;
+    margin: auto;
+    border: solid 0.5px whitesmoke;
+}
+
+#search {
+    width: 568px;
+    height: 26px;
+    /* padding: 1px; */
+}
+
+.submit_but {
+    height: 32px;
+    width: 65px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+#submit {
+    height: 32px;
+    width: 65px;
+}
+
+.header_personal {
+    width: 204px;
+    height: 40px;
+    float: right;
+}
+
+.icon1_box, .icon2_box, .icon3_box {
+    float: left;
+    width: 32px;
+    height: 32px;
+    margin: 5px;
+    margin-top: 10px;
+}
+
+.icon4_box {
+    margin: 5px;
+    margin-top: 10px;
+    float: left;
+    height: 40px;
+    width: 40px;
+}
+
+/* ============xuong phan than=============== */
+
