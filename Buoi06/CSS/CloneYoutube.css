@@ -12,7 +12,7 @@ body {
     width: 100%;
     /* left: 0; */
     /* right: 0; */
-    border: solid 1px green;
+    /* border: solid 1px green; */
     margin-top: 56px;
 }
 
@@ -23,12 +23,12 @@ img {
 
 /* ==============dinh dang noi dung============= */
 .header {
-    position: absolute;
+    position: fixed;
     /* margin: 0; */
     width: 100%;
     height: 56px;
     right: 0;
-    top: -57px;
+    top: 0;
     background-color: #303030;
     opacity: 0.8;
     z-index: 100;
@@ -125,14 +125,13 @@ img {
 
 .left_part, .main_choices, .main_choices_box {
     width: 240px;
-    /* background-color: gray; */
-    /* border: solid 1px red; */
 }
 .left_part {
+    float: left;
     height: 650px;
-    padding: 12px 0px 12px 0px;
-    scroll-behavior: smooth;
-    /* position: fixed; */
+    padding: 0px 0px 12px 0px;
+    /* scroll-behavior: smooth; */
+    position: fixed;
     left: 0;
     background-color:  #303030;
     overflow-y: auto;
@@ -183,4 +182,73 @@ p {
 
 ::-webkit-scrollbar {
     display: none;
+}
+
+/* ==============right part=================== */
+.right_part {
+    display: inline-block;
+    /* float: left; */
+    /* border: solid 1px pink; */
+    display: inline-block;
+    padding-left: 20px;
+    margin-right: 20px;
+    display: grid;
+    width: 81.6%;
+    margin-left: 240px;
+}
+
+.part1_box, .part2_box {
+    display: grid;
+    grid-template-columns: 242.68px 242.68px 242.68px 242.68px;
+    grid-gap: 10px;
+}
+
+.recommend, .news {
+    grid-column: 1/span4;
+}
+.recommend,.news p {
+    font-size: 20px;
+    margin: 0;
+}
+.vid {
+    /* border: solid 1px green; */
+}
+.iframe {
+    width: 100%;
+    height: 100%;
+}
+
+.information {
+    display: grid;
+    grid-template-columns: 27px 210px;
+    row-gap: 5.68px;
+}
+.icon_vid {
+    width: 27px;
+    height: 27px;
+}
+.icon_vid img {
+    border-radius: 50%;
+    margin-top: 5px;
+}
+.title_vid p {
+    margin-top: 0;
+    margin-left: 5px;
+}
+.channel_vid a {
+    text-decoration: none;
+    color: #AAAAAA;
+    margin-left: 5px;
+}
+.additional span {
+    color: #AAAAAA;
+}
+.additional {
+    margin-left: 5px;
+}
+
+.news {
+    margin: 24px 0px 24px 0px;
+    padding-top: 24px;
+    border-top: solid 3px #303030;
 }
