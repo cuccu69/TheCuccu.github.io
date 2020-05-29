@@ -2,6 +2,8 @@ body {
     /* background: black; */
     /* color: white; */
     width: 100%;
+    color: white;
+    background-color: #181818;
 }
 
 .wrap_all {
@@ -27,7 +29,8 @@ img {
     height: 56px;
     right: 0;
     top: -57px;
-    background-color: rgb(32, 32, 32);
+    background-color: #303030;
+    opacity: 0.8;
     z-index: 100;
 }
 
@@ -42,7 +45,7 @@ img {
     float: left;
     width: 32px;
     height: 56px;
-    margin-top: 14px; */
+    margin-top: 14px;
     margin-right: 16px;
 }
 
@@ -115,5 +118,69 @@ img {
     width: 40px;
 }
 
-/* ============xuong phan than=============== */
+/* ============Noi dung chung=============== */
+/* chua lam gi */
 
+/* ===============left part =============== */
+
+.left_part, .main_choices, .main_choices_box {
+    width: 240px;
+    /* background-color: gray; */
+    /* border: solid 1px red; */
+}
+.left_part {
+    height: 650px;
+    padding: 12px 0px 12px 0px;
+    scroll-behavior: smooth;
+    /* position: fixed; */
+    left: 0;
+    background-color:  #303030;
+    overflow-y: auto;
+    overflow-x: hidden;
+    
+}
+.main_choices, .other_choices, .other_services, .subcribed_channel, .set_up {
+    padding-top: 10px;
+}
+.main_choices_box, .other_choices_box, .other_services_box, .subcribe_channel_box, .set_up_box {
+    border-bottom: solid 1px gray;
+    /* border: solid 1px black; */
+}
+
+.main_choices_1, .main_choices_2, .main_choices_3, .other_choices_1, .other_choices_2, .other_choices_3, .other_choices_4, .other_choices_5, .other_choices_6, .subcribe_channel_content, .other_services_box_content, .set_up_box_content {
+    width: 192px;
+    height: 40px;
+    padding: 0px 24px 0px 24px;
+    margin: auto;
+    /* border: solid 1px yellow; */
+    margin: 0;
+}
+
+.icon {
+    float: left;
+    width: 24px;
+    height: 24px;
+    margin-right: 24px;
+    padding-top: 5px;
+}
+.text, .text p {
+    display: inline-block;
+    width: 144px;
+    height: 17.6px;
+    margin: 0;
+    padding-top: 5px;
+    text-overflow: ellipsis;
+    text-overflow: hidden;
+}
+p {
+    text-overflow: ellipsis;
+}
+
+.box_header {
+    width: 240px;
+    font-size: 14px;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
