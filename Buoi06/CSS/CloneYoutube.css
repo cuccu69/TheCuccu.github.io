@@ -160,10 +160,21 @@ img {
     margin: 0;
 }
 
-.main_choices_content:hover, .other_choices_content:hover, .subcribe_channel_content:hover, .other_services_box_content:hover, .set_up_box_content:hover {
+.main_choices_content:hover {
     background-color: #AAAAAA;
 }
-
+.other_choices_content:hover {
+    background-color: #AAAAAA;
+}
+.subcribe_channel_content:hover {
+    background-color: #AAAAAA;
+}
+.other_services_box_content:hover {
+    background-color: #AAAAAA;
+}
+.set_up_box_content:hover {
+    background-color: #AAAAAA;
+}
 .other_services_box_content_head, .subcribe_channel_content_head{
     width: 192px;
     height: 40px;
