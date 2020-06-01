@@ -1,0 +1,149 @@
+body {
+    background: #f9f9f9;
+}
+
+.wrap_nav {
+position: fixed;
+height: 60px;
+left: 0;
+right: 0;
+top: 0;
+margin: auto;
+background: white;
+box-shadow:  rgba(119, 130, 139, 0.09) 5px 5px 14px 5px;
+/* border: solid 1px red; */
+}
+
+p {
+    margin: 0;
+}
+
+.nav_content {
+    width: 1300px;
+    height: 60px;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    
+}
+
+.nav_content_left {
+    /* align-items: flex-start; */
+    align-items: center;
+    display: flex;
+}
+
+.nav_content_right {
+    /* align-items: flex-end; */
+    display: flex;
+    align-items: center;
+}
+
+#lotus-logo {
+    width: 33px;
+    height: 30px;
+    fill: #cd0f32;
+    stroke: transparent;
+}
+
+#lotus-text {
+    width: 68px;
+    height: 22px;
+    fill: #002d64;
+    stroke: transparent;
+    /* position: relative;
+    top: -4px; */
+}
+
+.icon_lotus {
+    margin-right: 10px;
+}
+
+.register, .signin {
+    display: flex;
+    width: 98px;
+    height: 28px;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+}
+
+.register p, .signin p {
+    align-items: center;
+    width: 98px;
+    font-size: 13px;
+}
+
+.register:hover, .signin:hover {
+cursor: pointer;
+}
+
+.signin {
+    color: #1f9ffc;
+    border: solid 2px #1f9ffc;
+    border-radius: 10px;
+    font-weight: bold;
+}
+.register {
+    background-color: #1f9ffc;
+    font-weight: bold;
+    border-radius: 10px;
+    color: white;
+    margin-left: 10px;
+}
+/* ===============side bar part================= */
+.side_bar_part {
+    /* display: flex; */
+    /* align-items: center; */
+    position: fixed;
+    top: 125px;
+    left: 145px;
+    width: 200px;
+    height: 293px;
+    background-color: white;
+    padding: 15px 0px 30px 0px;
+    border-radius: 5px;
+    color: #aaaaaa;
+    font-size: 15px;
+    border-radius: 15px;
+    box-shadow: rgba(119, 130, 139, 0.09) 5px 5px 14px 5px
+}
+
+.line {
+    width: 162px;
+    height: 22px;
+    display: flex;
+    margin: auto;
+    margin-top: 30px;
+}
+.line_top {
+    margin-top: 0px;
+}
+.icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    /* margin-left: 10px; */
+}
+.icon svg {
+    fill: #aaa;
+    stroke: transparent;
+}
+
+.lotus_portal {
+    padding: 15px 19px 15px 19px;
+    background: #fafafa;
+}
+.support {
+    margin: 0;
+    padding: 10px 19px 22px 19px;
+    background: #fafafa;
+}
+
+.line:hover {
+    color: black;
+}
+.line:hover svg {
+    color: black;
+    fill: black;
+}
