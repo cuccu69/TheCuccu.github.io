@@ -1,0 +1,229 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    margin: auto;
+}
+
+svg {
+    max-width: 100%;
+}
+
+span {
+    display: inline-block;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f2f2f2;
+}
+
+.wrap_card {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh;
+    width: 100vw;
+    padding: 0px 70px;
+}
+
+.card {
+    width: 304px;
+    background-color: #fff;
+    padding: 16px;
+    margin: 20px;
+}
+
+.card_icon {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+}
+
+.card_icon span {
+    color: #BFC5D1;
+    font-size: 20px;
+}
+
+.card_thumbnail img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+.card_info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.name {
+    font-size: 18px;
+    color: #1B2437;
+    font-weight: 500;
+    margin: 16px 0;
+}
+
+.email {
+    font-size: 14px;
+    color: #98A0A6;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.card_btn {
+    display: flex;
+    justify-content: space-between;
+    /* justify-content: center; */
+}
+
+
+.btn {
+    flex-basis: 48%;
+    border-radius: 100px;
+    padding: 10px 0;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+}
+
+.btn_add {
+    flex-basis: 55%;
+    border-radius: 100px;
+    padding: 10px 0;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #507BFC;
+    border: #507BFC solid 0.5px;
+}
+
+.add {
+    display: flex;
+    justify-content: center;
+    padding: 0px 10px;
+}
+
+
+.btn_icon {
+    color: #BFC5D1;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+
+.btn_name {
+    color: #BFC5D1;
+    font-size: 14px;
+    font-weight: 500;
+}
+.btn_add:hover {
+    background-color: #fff;
+}
+.btn_add:hover .btn_name {
+    color: #507BFC;
+}
+
+.btn:hover {
+    background-color: #507BFC;
+}
+
+.btn:hover .btn_name,
+.btn:hover .btn_icon{
+    color: #fff;
+}
+
+/* ======================sang header============ */
+.wrap_team {
+    display: flex;
+    width: 80%;
+    height: 10%;
+    margin: auto;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /* align-items: center; */
+}
+
+.team_left {
+    margin: 0;
+    display: flex;}
+
+.team_logo svg{
+    width: 40px;
+    height: 40px;
+}
+.team_logo {
+    margin-right: 20px;
+}
+
+.team_button {
+    position: relative;
+    display: flex;
+    border: solid 1px #98A0A6;
+    border-radius: 20px;
+    width: 14%;
+    justify-content: space-between;
+}
+.btn_right{
+    flex-basis: 45%;
+    border-radius: 20px;
+    padding: 10px;
+    border: none;
+    /* background-color: #507BFC; */
+    color: #98A0A6;
+}
+.btnall {
+    background: #507BFC;
+    color: white;
+    /* transition: linear 0.5s; */
+}
+.btnmyteam {
+
+}
+/*=========================nav header==================*/
+.wrap_nav {
+    display: flex;
+    margin: auto;
+    width: 90%;
+    height: 5%;
+    justify-content: space-between;
+    align-items: center;
+ }
+
+.nav_left {
+    display: flex;
+    flex-basis: 8%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav_mid {
+    width: 20%;
+}
+
+.nav_right {
+    width: 12%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav_icon{
+    width: 40px;
+    height: 40px;
+}
+.nav_icon img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
