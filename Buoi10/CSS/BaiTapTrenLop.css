@@ -5,7 +5,9 @@
 }
 
 body {
-    background-color: gainsboro;
+    color: black;
+    /* background-color: gainsboro; */
+    background-image: url(https://p.w3layouts.com/demos/quickly/web/images/pattern.jpg);
 }
 
 img {
@@ -38,6 +40,7 @@ span {
 }
 .logo_top {
     font-size: 72px ;
+    color: orange;
 }
 .logo_quote {
     font-size: 24px;
@@ -63,20 +66,21 @@ span {
     justify-content: space-between;
     padding: 30px 20px 0px 20px;
 }
-a:active {
-    color: orangered;
+a {
+    text-decoration: none;
+    /* color: black; */
 }
 a:visited {
-    color: blue;
+    color: black;
 }
 a:hover {
     cursor: pointer;
-    color: hotpink;
+    color: grey;
 }
-a, a:link {
-    text-decoration: none;
-    color: black;
+a:active {
+    color: orangered;
 }
+
 
 .card {
     width: 30%;

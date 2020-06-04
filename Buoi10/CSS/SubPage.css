@@ -4,12 +4,34 @@
     box-sizing: border-box;
 }
 
-body {
-    background-color: gainsboro;
+img {
+    display: block;
+    margin: auto;
+    max-width: 100%;;
 }
 
 span {
     display: block;
+}
+
+body {
+    background-color: gainsboro;
+}
+
+/* span {
+    display: block;
+} */
+
+p {
+    margin-left: 0.5em;
+    padding: 0;
+    text-align: justify;
+}
+
+ol li {
+    margin-left: 1em;
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
 }
 
 .container {
@@ -19,28 +41,60 @@ span {
     margin-top: 50px;
 }
 
-.nav_bar {
-    /* border: solid 1px pink; */
-    box-shadow: 0px 3px rgba(0, 0, 0, 0.5);
-}
-
 .logo {
     text-align: center;
 }
-
 .logo_top {
     font-size: 72px ;
+    color: orange;
 }
-
 .logo_quote {
     font-size: 24px;
+    color: gray;
 }
 
 .menu {
     display: flex;
     justify-content: center;
+    border-top: dotted gainsboro;
+    border-bottom: dotted gainsboro;
+    margin-top: 15px;
+    color: orange;
 }
-
 .menu span {
     margin: 10px;
+}
+/* ===============abc============== */
+h1 {
+    text-align: center;
+    padding: 20px 0px;
+    font-weight: lighter;
+}
+.card_right {
+    display: flex;
+    width: 100%;
+    /* border: solid 1px; */
+    justify-content: center;
+    margin: 15px 0px;
+}
+.detail {
+    width: 40%;
+    /* border: solid 1px; */
+    display: flex;
+    align-items: center;
+    padding: 0.5em;
+}
+
+.pic {
+    width: 40%;
+    border: solid 1px;
+}
+
+.card_left {
+    display: flex;
+    width: 100%;
+    /* border: solid 1px; */
+    justify-content: center;
+    margin: 15px 0px;
+    flex-direction: row-reverse;
 }
