@@ -58,6 +58,10 @@ span {
 .menu span {
     margin: 10px;
 }
+#home {
+    color: orange;
+    text-decoration: none;
+}
 /* =============content============= */
 
 .content {
