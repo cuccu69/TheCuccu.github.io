@@ -35,10 +35,12 @@ ol li {
 }
 
 .container {
-    width: 80%;
+    width: 75%;
     margin: auto;
     background-color: white;
     margin-top: 50px;
+    margin-bottom: 50px;
+    padding-bottom: 50px;
 }
 
 .logo {
