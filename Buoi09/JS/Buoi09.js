@@ -7,3 +7,13 @@ function change_color(id) {
         document.getElementById(id).style.color = 'red';
     }
 }
+
+function change_background(id) {
+    var background = document.getElementById(id);
+
+    if(background == '#507BFC') {
+        background.style.backgroundColor = '#98A0A6';
+    } else {
+        background.style.backgroundColor = '#507BFC';
+    }
+}
