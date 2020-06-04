@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: gainsboro;
+}
+
+span {
+    display: block;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    background-color: white;
+    margin-top: 50px;
+}
+
+.nav_bar {
+    /* border: solid 1px pink; */
+    box-shadow: 0px 3px rgba(0, 0, 0, 0.5);
+}
+
+.logo {
+    text-align: center;
+}
+
+.logo_top {
+    font-size: 72px ;
+}
+
+.logo_quote {
+    font-size: 24px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+}
+
+.menu span {
+    margin: 10px;
+}

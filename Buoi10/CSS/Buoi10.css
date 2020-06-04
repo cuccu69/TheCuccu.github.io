@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    font-size: 28px;
+    width: 200px;
+    height: 60px;
+    /* border: solid 5px pink; */
+    /* overflow: hidden; */
+}
+
+button {
+    width: 200px;
+    height: 60px;
+    background-color: #3f444d;
+    text-align: center;
+    line-height: 60px;
+    color: #fff;
+    border: none;
+    text-transform: capitalize;
+    /* transition-property: background-color; */
+    transition: 0.7s ease-out;
+}
+
+/* button:hover {
+    background-color: grey;
+    color: whitesmoke;
+    box-shadow: gainsboro  5px 5px 15px 15px;
+} */
+
+button:hover {
+    transform: rotate(360deg);
+    border: solid 5px green;
+}

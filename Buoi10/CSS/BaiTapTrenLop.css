@@ -1,0 +1,111 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: gainsboro;
+}
+
+img {
+    display: inline-block;
+    max-width: 100%;
+    margin: auto;
+    /* border-radius: 5px; */
+    height: 197.21px;
+    width: 350.58px;
+}
+
+span {
+    display: block;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    background-color: white;
+    margin-top: 50px;
+}
+
+/* ==============nav bar ===========*/
+.nav_bar {
+    /* border: solid 1px pink; */
+    /* box-shadow: 0px 3px rgba(0, 0, 0, 0.5); */
+}
+.logo {
+    text-align: center;
+}
+.logo_top {
+    font-size: 72px ;
+}
+.logo_quote {
+    font-size: 24px;
+    color: gray;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    border-top: dotted gainsboro;
+    border-bottom: dotted gainsboro;
+    margin-top: 15px;
+    color: orange;
+}
+.menu span {
+    margin: 10px;
+}
+/* =============content============= */
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px 20px 0px 20px;
+}
+a:active {
+    color: orangered;
+}
+a:visited {
+    color: blue;
+}
+a:hover {
+    cursor: pointer;
+    color: hotpink;
+}
+a, a:link {
+    text-decoration: none;
+    color: black;
+}
+
+.card {
+    width: 30%;
+    height: 360px;
+    /* border: solid 1px gray; */
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 15px 0px 15px 0px;
+    transition: 0.3s ease-out;
+}
+.card:hover {
+    /* box-shadow: gr; */
+    /* border: solid 1px orange; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card_pic {
+    height: 197.21px;
+    width: 350.58px;
+    overflow: hidden;
+    
+}
+
+.card:hover img {
+    /* opacity: 0.7; */
+    transition: 0.2s ease-in-out;
+    transform: scale(1.2);
+}
+.card_infor {
+    margin: 10px 5px 0px 5px;
+    text-align: justify;
+}
