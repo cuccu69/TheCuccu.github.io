@@ -12,11 +12,12 @@ body {
 
 img {
     display: inline-block;
-    max-width: 100%;
+    /* max-width: 100%; */
     margin: auto;
     /* border-radius: 5px; */
-    height: 197.21px;
-    width: 350.58px;
+    /* height: 197.21px; */
+    /* width: 350.58px; */
+    max-width: 100%;
 }
 
 span {
@@ -101,7 +102,7 @@ a:active {
 
 .card_pic {
     height: 197.21px;
-    width: 350.58px;
+    width: 100%;
     overflow: hidden;
     
 }
