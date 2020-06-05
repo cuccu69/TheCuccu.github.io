@@ -18,6 +18,7 @@ img {
     /* height: 197.21px; */
     /* width: 350.58px; */
     max-width: 100%;
+    transition: linear 0.3s;
 }
 
 span {
@@ -109,7 +110,7 @@ a:active {
 
 .card:hover img {
     /* opacity: 0.7; */
-    transition: 0.2s ease-in-out;
+    /* transition: 0.2s ease-in-out; */
     transform: scale(1.2);
 }
 .card_infor {
