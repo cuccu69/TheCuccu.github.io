@@ -93,7 +93,7 @@ h1 {
 
 .pic {
     width: 40%;
-    border: solid 1px;
+    /* border: solid 1px; */
 }
 
 .card_left {
