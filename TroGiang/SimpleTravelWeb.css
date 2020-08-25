@@ -119,3 +119,11 @@ body, .header, .main, .footer {
     margin: 10px 0px;
     text-indent: 10px;
 }
+
+/* ============footer=========== */
+.footer {
+    /* border: solid 1px black; */
+    margin-top: 20px;
+    padding: 20px 0px;
+    text-align: center;
+}
