@@ -1,7 +1,7 @@
 * {
     margin: 0px;
     padding: 0px;
-    color: rgba(0, 0, 0, 0.7);
+    /* color: rgba(0, 0, 0, 0.7); */
 }
 
 img {
@@ -9,7 +9,13 @@ img {
     height: 100%;
 }
 
-body, .header, .main, .footer {
+p {
+    padding: 5px;
+    text-align: justify;
+}
+
+
+body {
     max-width: 1140px;
     margin: auto;
 }
@@ -86,9 +92,10 @@ body, .header, .main, .footer {
 }
 
 .card {
-    width: 30%;
-    margin-bottom: 50px;
-    height: 400px;
+    width: 31%;
+    margin-bottom: 40px;
+    max-height: 450px;
+    min-height: 400px;
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 0px 0px 15px;
@@ -102,16 +109,15 @@ body, .header, .main, .footer {
 }
 
 .cover-image img{
-    transition: 0.5s ease;
+    transition: 0.5s;
 }
 
 .card:hover {
     box-shadow: 0px 0px 5px;
-    color: black;
     cursor: pointer;
 }
 
-.card img:hover {
+.card:hover img {
     transform: scale(1.2);
 }
 
