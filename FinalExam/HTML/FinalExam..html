@@ -11,6 +11,10 @@
 
 <body>
     <div class="container">
+
+        <div id="myBar" style="height: 8px; position: fixed; z-index: 1; top: 0; background-color: green;">
+
+        </div>
         <!-- ===============side bar ben trai================= -->
 
         <div class="side-bar">
@@ -119,19 +123,20 @@
                             hoangvancuong123@gmail.com
                         </li>
                     </ul>
-                    
-                    <p class="more-detail">Ngoài thời gian là việc, việc yêu thích của tôi là rong ruổi trên "chú ngựa" của mình</p>
+
+                    <p class="more-detail">Ngoài thời gian là việc, việc yêu thích của tôi là rong ruổi trên "chú ngựa"
+                        của mình</p>
                 </div>
             </div>
-            
+
             <!-- ========trinh do hoc van=========== -->
-            
+
             <div class="education-wrap" id="education">
                 <div class="education sub-content">
                     <div class="education-title">
                         <p>- Trình độ học vấn:</p>
                     </div>
-                    
+
                     <div class="education-box">
                         <div class="education-detail box1">
                             <div class="education-detail-header">
@@ -219,6 +224,18 @@
 
         </div>
     </div>
+
+    <script>
+        // When the user scrolls the page, execute myFunction 
+        window.onscroll = function () { myFunction() };
+
+        function myFunction() {
+            var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+            var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+            var scrolled = (winScroll / height) * 100;
+            document.getElementById("myBar").style.width = scrolled + "%";
+        }
+    </script>
 </body>
 
 </html>
