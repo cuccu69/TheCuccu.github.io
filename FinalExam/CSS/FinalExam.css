@@ -241,6 +241,18 @@ li {
 /* ============kinh nghiem================= */
 .experience-wrap {
     background-image: url(../Pic/ngồi\ cuối\ ngày.jpg);
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.experience-title {
+    /* display: flex; */
+    font-size: 40px;
+    padding-top: 140px;
+    justify-content: center;
+    position: absolute;
+    
 }
 
 .experience {
