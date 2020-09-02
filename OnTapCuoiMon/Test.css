@@ -1,0 +1,26 @@
+body {
+    border: solid 1px black;
+}
+
+h1 {
+    width: 900px;
+    margin: auto;
+    border: solid 1px;
+}
+
+img {
+    width: 300px;
+    border: solid 1px;
+    margin: auto;
+}
+
+p {
+    border: solid 1px;
+    margin: auto;
+    /* width: 200px; */
+}
+
+b {
+    margin: auto;
+    border: solid 1px;
+}
