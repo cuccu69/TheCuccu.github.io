@@ -286,3 +286,7 @@ li {
 .year {
     margin-bottom: 20px;
 }
+
+a:active {
+    color: green;
+}
