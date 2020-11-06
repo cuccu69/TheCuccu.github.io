@@ -89,12 +89,14 @@ a:active {
 
 .card {
     width: 30%;
-    height: 360px;
+    height: 430px;
     /* border: solid 1px gray; */
     border-radius: 5px;
     overflow: hidden;
     margin: 15px 0px 15px 0px;
     transition: 0.3s ease-out;
+    border: gainsboro 1px solid;
+    /* overflow: hidden; */
 }
 .card:hover {
     /* box-shadow: gr; */
