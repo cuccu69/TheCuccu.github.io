@@ -231,7 +231,9 @@ img {
 }
 
 .danhmuc_content_block:hover {
-    border: solid 0.5px whitesmoke;
+    width: 118px;
+    height: 148.94px;
+    border: 1px solid orange;
 }
 
 .content_img {
@@ -670,7 +672,9 @@ img {
 }
 
 .content_box_product:hover {
-    border: solid 1px #ee4d2d;
+    width: 188px;
+    height: 271px;
+    border: solid 0.5px #ee4d2d;
 }
 
 

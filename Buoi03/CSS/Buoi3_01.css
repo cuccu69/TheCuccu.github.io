@@ -1,233 +1,227 @@
 body {
-    align-items: center;
-    margin: 0px;
-    font-family: Quicksand;
-    color: #4c4c4c;
+  align-items: center;
+  margin: 0px;
+  font-family: Quicksand;
+  color: #4c4c4c;
 }
 
 .line1 {
-    /* border: solid 1px black; */
-    /* text-align: center; */
-    /* width: 1200px; */
-    align-content: center;
-    padding: 5px;
-    
+  /* border: solid 1px black; */
+  /* text-align: center; */
+  /* width: 1200px; */
+  align-content: center;
+  padding: 5px;
 }
 
 .blockline1 {
-    /* border: solid 1px black; */
-    width: 80%;
-    /* text-align: center; */
-    margin-left: 9%;
-    padding: 10px;
+  /* border: solid 1px black; */
+  width: 80%;
+  /* text-align: center; */
+  margin-left: 9%;
+  padding: 10px;
 }
 
 .blockline1_part1 {
-    float: left;
-    /* border: solid 1px black; */
-    padding: 2px;
+  float: left;
+  /* border: solid 1px black; */
+  padding: 2px;
 }
 
-.blockline1_part2{
-    /* border: solid 1px black; */
-    /* text-align: right; */
-    width: fit-content;
-    margin-left: 80%;
-    padding: 2px;
+.blockline1_part2 {
+  /* border: solid 1px black; */
+  /* text-align: right; */
+  width: fit-content;
+  margin-left: 80%;
+  padding: 2px;
 }
 
 /* xong cai line 1 */
 
 .line2 {
-    border: solid 1px #888888;
-    max-width: 100%;
-    /* align-content: center; */
-    /* margin: 20px; */
-    padding: 10px;
+  border: solid 1px #888888;
+  max-width: 100%;
+  /* align-content: center; */
+  /* margin: 20px; */
+  padding: 10px;
 }
 .blockline2 {
-    /* border: solid 1px black; */
-    width: 80%;
-    margin-left: 9%;
-    /* padding: 30px; */
+  /* border: solid 1px black; */
+  width: 80%;
+  margin-left: 9%;
+  /* padding: 30px; */
 }
 
 .line2_part1 {
-    /* border: solid 1px black; */
-    float: left;
-    /* width: 20%; */
+  /* border: solid 1px black; */
+  float: left;
+  /* width: 20%; */
 }
 
 .line2_part2 {
-    /* border: solid 1px black; */
-    /* padding-top: 2.5%; */
-    /* margin-top: 400px; */
-    /* width: fit-content; */
-    float: left;
-    /* background-color: gray; */
+  /* border: solid 1px black; */
+  /* padding-top: 2.5%; */
+  /* margin-top: 400px; */
+  /* width: fit-content; */
+  float: left;
+  /* background-color: gray; */
 }
 
 /* Xong line 2 */
 
 .line3 {
-    /* border: solid 1px black; */
-    padding: 10px;
-    align-content: center;
-
+  /* border: solid 1px black; */
+  padding: 10px;
+  align-content: center;
 }
 
 .blockline3 {
-    /* border: solid 1px black ; */
-    width: 80%;
-    margin-left: 10%;
-    padding: 10px;
+  /* border: solid 1px black ; */
+  width: 80%;
+  margin-left: 10%;
+  padding: 10px;
 }
 
 .line3_part1 {
-    /* border: solid 1px black; */
-    float: left;
+  /* border: solid 1px black; */
+  float: left;
 }
 
 .line3_part2_part1 {
-    padding-left: 10px;
+  padding-left: 10px;
 }
 
 /* Xong line 3 */
 .bigcoverpicture {
-    /* width: 1685px; */
-    max-width: 100%;
-    margin: 0px;
-    padding: 0px;
-    /* border: solid 1px black; */
+  /* width: 1685px; */
+  max-width: 100%;
+  margin: 0px;
+  padding: 0px;
+  /* border: solid 1px black; */
 }
 
 /* hang bieu tuong */
 .cover_huyhieu {
-    align-content: center;
-    /* border: solid 1px black; */
-    margin-top: 80px;
-    /* padding: 10px; */
+  align-content: center;
+  /* border: solid 1px black; */
+  margin-top: 80px;
+  /* padding: 10px; */
 }
 
 .coverhuyhieu_block {
-    /* border: solid 1px black; */
-    margin-left: 150px;
+  /* border: solid 1px black; */
+  margin-left: 150px;
 }
 
 .huyhieu {
-margin: 5px;
-float: left;
-text-align: center;
-/* border: solid 1px black; */
-width: 280px;
+  margin: 5px;
+  float: left;
+  text-align: center;
+  /* border: solid 1px black; */
+  width: 280px;
 }
 
 .anh_huyhieu {
-    float: left;
-    /* border: solid 1px black; */
-    margin-left: 20px;
+  float: left;
+  /* border: solid 1px black; */
+  margin-left: 20px;
 }
 
 .ten_huyhieu {
-    /* border: solid 1px green; */
-    width: 300px;
+  /* border: solid 1px green; */
+  width: 300px;
 }
 
 .hangchu2 {
-    /* border: solid 1px black; */
-    margin: 50px;
+  /* border: solid 1px black; */
+  margin: 50px;
 }
 
 .hang2_chu {
-    float: left;
-    /* border: solid 1px black; */
+  float: left;
+  /* border: solid 1px black; */
 }
 
 .chu1 {
-    margin-right: 700px;
-    margin-left: 150px;
-    font-size: 20px;
-    /* border: solid 1px black; */
+  margin-right: 700px;
+  margin-left: 150px;
+  font-size: 20px;
+  /* border: solid 1px black; */
 }
-.chu2, .chu3 {
-    margin-right: 20px;
-    font-size: 12px;
-    /* border: solid 1px black; */
-    float: left;
+.chu2,
+.chu3 {
+  margin-right: 20px;
+  font-size: 12px;
+  /* border: solid 1px black; */
+  float: left;
 }
 
 .sanpham {
-    float: left;
+  float: left;
 }
 
 .sanpham_part1 {
-    float: left;
-    border: solid 3px orange;
-    border-radius: 15px;
-    text-align: center;
+  float: left;
+  border: solid 3px orange;
+  border-radius: 15px;
+  text-align: center;
 }
 .sanpham_part2 {
-    float: left;
-    /* border: solid 1px red; */
-    /* width: 500px; */
-
+  float: left;
+  /* border: solid 1px red; */
+  /* width: 500px; */
 }
 
 .spp2_content {
-    float: left;
+  float: left;
 }
 
 .qua {
-    float: left;
-    padding: 5px;
-    margin: 5px;
-
+  float: left;
+  padding: 5px;
+  margin: 5px;
 }
 
 .qua1 {
-    width: 200px;
-    height: 200px;
+  width: 200px;
+  height: 200px;
 }
 
 .name_fruit {
-    margin-top: 15px;
-    width: 200px;
+  margin-top: 15px;
+  width: 200px;
 }
 
 .price {
-    color: #888888;
+  color: #888888;
 }
 
 .img {
-/* border-radius: 50%; */
-border: solid 5px pink;
-}
-
-img:hover {
-    border-radius: 50%;
+  /* border-radius: 50%; */
+  transition: 0.3s ease;
+  /* border: solid 5px pink; */
 }
 
 .saurieng {
-    width: fit-content;
-    /* border: solid 1px black; */
-    width: 300px;
-    height: 300px;
+  width: fit-content;
+  /* border: solid 1px black; */
+  width: 300px;
+  height: 300px;
 }
 
 .qua:hover {
-    border: solid 1px orange;
-    /* border-radius: 50%; */
+  border: solid 1px orange;
+  /* border-radius: 50%; */
 }
 
 .traicaykhac {
-    text-align: center;
-    font-size: 15px;
-    font-style: #888888;
+  text-align: center;
+  font-size: 15px;
+  font-style: #888888;
 }
 /* .qua1::after {
     content: "Sầu riêng Musang King Malaysia";
 } */
 .chusaurieng {
-    text-align: center;
-    font-size: 24px;
+  text-align: center;
+  font-size: 24px;
 }
